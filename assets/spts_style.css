@@ -1,0 +1,104 @@
+#pinterest_widget {
+	position: relative;
+}
+#sptf_feeds_outer {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 5px solid #cb2027;
+	background-color: #fff;
+	position: fixed;
+}
+#sptf_feeds_outer2 {
+	overflow: hidden;
+	text-align: left;
+}
+#sptf_feeds_outer img {
+	position: absolute;
+	top: 0px;
+	cursor: pointer;
+	border: 0;
+	z-index: 10000;
+}
+#sptf_feeds_outer iframe {
+	border: 0px;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.sptw_box_modal > h2.sptf-style {
+	background: #cb2027 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    font-size: 25px !important;
+    font-weight: 600;
+    margin: 25px 0 0;
+    padding: 15px 0 !important;
+    text-align: center;
+}
+.sptw_box_modal .sptf_submit {
+	text-align: center;
+	width: 520px;
+}
+.sptw_box_modal .sptf_submit .sptf_but-info{
+	background: #cb2027 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 0;
+    padding: 20px;
+    text-shadow: none;
+    text-transform: capitalize;
+}
+.sptw_box_modal th {
+	color: #cb2027;
+	font-size: 16px;
+	font-weight:normal;
+}
+.sptw_box_modal h2 {
+	color: #cb2027;
+	font-size: 26px;
+}
+.sptw_box_modal .form-table input {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #cb2027;
+	height: 35px;
+	width: 300px;
+	color: #666;
+	border-radius: 3px;
+}
+.sptw_box_modal .form-table textarea {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #005b7f;
+	height: 60px;
+	width: 300px;
+	color: #666;
+	border-radius: 3px;
+	margin: 0;
+}
+.sptw_box_modal select {
+	border: 1px solid #cb2027;
+	border-radius: 3px;
+} 
+.sptw_box_modal {
+    background: #fff none repeat scroll 0 0;
+    width: 45%;
+	padding-bottom: 15px;
+}
+.sptw_box_modal .form-table input[type=radio] {
+    width:auto;
+}
+form.spts_frm {
+       padding: 0 10px 0 20px;
+}
+input[type="submit"]:hover, input[type="submit"]:focus {
+    background: #000 none repeat scroll 0 0 !important;
+    color: #fff !important;
+    outline: medium none !important;
+    transition: all 1s ease 0s;
+}
